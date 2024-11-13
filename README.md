@@ -39,7 +39,7 @@ Metodo 2 Usar un servidor HTTP simple con Python
 2. Navega a la carpeta del proyecto.
 
 3. Ejecuta el siguiente comando.
-   ``bash
+
    go run main.go
 
 5. Abre tu navegador y ve a http://localhost:8081/index.html
