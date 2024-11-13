@@ -1,56 +1,56 @@
-# Multiplicador de Dos Números
+# Two Number Multiplier
 
-Este es un proyecto simple en JavaScript que permite multiplicar dos números ingresados por el usuario. La aplicación se ejecuta en un navegador web y también se puede ejecutar en un contenedor Docker.
+This is a simple JavaScript project that allows to multiply two numbers entered by the user. The application runs in a web browser and can also be run in a Docker container.
 
 
-## Características
+## Features
 
-- Interfaz simple para ingresar dos números.
-- Botón para multiplicar los números.
-- Muestra el resultado en la misma página.
+- Simple interface to enter two numbers.
+- Button to multiply the numbers.
+- Displays the result on the same page.
 
-## Tecnologías Utilizadas
+## Technologies Used
 
-- HTML
-- CSS (opcional, puedes agregar estilos si lo deseas)
+- HTML (OPTIONAL, YOU CAN ADD STYLES IF YOU WANT)
+- CSS (optional, you can add styles if you want)
 - JavaScript
 - Docker
 
-## Clonar el Repositorio
+## Clone the Repository
 
-Para clonar este repositorio, usa el siguiente comando:
+To clone this repository, use the following command:
 
 ``bash
 
 git clone https://github.com/Daniielpro/MultiplicadorJavascript.git
 
-## Clonar el Repositorio
+## Clone the Repository
 
-Metodo 1 Abrir Directamente el archivo html
+Method 1 Directly open the html file
 
-1. Navega a la carpeta del proyecto.
+1. Navigate to the project folder.
 
-2. Haz doble clic en index.html para abrirlo en tu navegador.
+2. Double click on index.html to open it in your browser.
 
-Metodo 2 Usar un servidor HTTP simple con Python
+Method 2 Use a simple HTTP server with Python
 
-1. Abre la terminal.
+1. Open the terminal.
 
-2. Navega a la carpeta del proyecto.
+2. Navigate to the project folder.
 
-3. Ejecuta el siguiente comando.
+3. Run the following command.
 
-   go run main.go
+go run main.go
 
-5. Abre tu navegador y ve a http://localhost:8081/index.html
+5. Open your browser and go to http://localhost:8081/index.html
 
-## Ejecucion Dcoker
-Para Eejcutar lmediante Docker el proyecto, sigue estos pasos:
+## Running Dcoker
+To run the project using Docker, follow these steps:
 
-1. Abrir terminal desde la carpeta raiz del proyecto
-2. Eejcuta el siguietne comando
-   ```bash
-   docker build -t username/appname .
-3. Eejcuta el siguietne comando
-   ```bash
-   docker run -d -p 8081:8081 username/nameapp
+1. Open terminal from the root folder of the project. 2.
+2. Issue the following command
+````bash
+docker build -t username/appname .
+3. Issue the following command
+````bash
+docker run -d -p 8081:8081 username/nameapp
