@@ -40,7 +40,7 @@ Method 2 Use a simple HTTP server with Python
 
 3. Run the following command.
 
-go run main.go
+python -m http.server 8081
 
 5. Open your browser and go to http://localhost:8081/index.html
 
