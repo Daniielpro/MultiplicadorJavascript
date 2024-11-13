@@ -39,10 +39,10 @@ Metodo 2 Usar un servidor HTTP simple con Python
 2. Navega a la carpeta del proyecto.
 
 3. Ejecuta el siguiente comando.
-```bash
+   ``bash
    go run main.go
 
-4. Abre tu navegador y ve a http://localhost:8081/index.html
+5. Abre tu navegador y ve a http://localhost:8081/index.html
 
 ## Ejecucion Dcoker
 Para Eejcutar lmediante Docker el proyecto, sigue estos pasos:
