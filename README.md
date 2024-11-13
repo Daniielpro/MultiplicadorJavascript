@@ -50,9 +50,11 @@ To run the project using Docker, follow these steps:
 1. Open terminal from the root folder of the project.
    
 3. Issue the following command
+
 ``bash
 docker build -t username/appname .
 
 3. Issue the following command
+
 ``bash
 docker run -d -p 8081:8081 username/nameapp
