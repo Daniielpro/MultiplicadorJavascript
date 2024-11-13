@@ -18,11 +18,9 @@ This is a simple JavaScript project that allows to multiply two numbers entered 
 
 ## Clone the Repository
 
-To clone this repository, use the following command:
-
-   ```bash
-
-     git clone https://github.com/Daniielpro/MultiplicadorJavascript.git
+1. To clone this repository, use the following command:
+    ```bash
+    git clone https://github.com/Daniielpro/MultiplicadorJavascript.git
 
 ## Clone the Repository
 
