@@ -20,9 +20,9 @@ This is a simple JavaScript project that allows to multiply two numbers entered 
 
 To clone this repository, use the following command:
 
-``bash
+   ```bash
 
-git clone https://github.com/Daniielpro/MultiplicadorJavascript.git
+     git clone https://github.com/Daniielpro/MultiplicadorJavascript.git
 
 ## Clone the Repository
 
@@ -40,9 +40,10 @@ Method 2 Use a simple HTTP server with Python
 
 3. Run the following command.
 
-python -m http.server 8081
+   ```bash
+      python -m http.server 8081
 
-5. Open your browser and go to http://localhost:8081/index.html
+4. Open your browser and go to http://localhost:8081/index.html
 
 ## Running Dcoker
 To run the project using Docker, follow these steps:
@@ -50,11 +51,9 @@ To run the project using Docker, follow these steps:
 1. Open terminal from the root folder of the project.
    
 3. Issue the following command
-
-``bash
-docker build -t username/appname .
+   ````bash
+      docker build -t username/appname .
 
 3. Issue the following command
-
-``bash
-docker run -d -p 8081:8081 username/nameapp
+   ````bash
+    docker run -d -p 8081:8081 username/nameapp
